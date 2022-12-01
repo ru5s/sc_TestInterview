@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B51F1FF3293881CE00DB92B2 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F1FF2293881CE00DB92B2 /* Request.swift */; };
+		B51F1FF5293881F500DB92B2 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F1FF4293881F500DB92B2 /* Articles.swift */; };
+		B51F1FF72938823500DB92B2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F1FF62938823500DB92B2 /* TableViewCell.swift */; };
+		B51F1FF9293882DC00DB92B2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51F1FF8293882DC00DB92B2 /* SecondViewController.swift */; };
 		B5BECC0129386ECB004290CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BECC0029386ECB004290CC /* AppDelegate.swift */; };
 		B5BECC0329386ECB004290CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BECC0229386ECB004290CC /* SceneDelegate.swift */; };
 		B5BECC0529386ECB004290CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BECC0429386ECB004290CC /* ViewController.swift */; };
@@ -20,6 +24,10 @@
 		0ED063756BCB86414A3F41C0 /* Pods-sc_TestInterview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sc_TestInterview.release.xcconfig"; path = "Target Support Files/Pods-sc_TestInterview/Pods-sc_TestInterview.release.xcconfig"; sourceTree = "<group>"; };
 		396E348C8CA082FCAA9887F4 /* Pods-sc_TestInterview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sc_TestInterview.debug.xcconfig"; path = "Target Support Files/Pods-sc_TestInterview/Pods-sc_TestInterview.debug.xcconfig"; sourceTree = "<group>"; };
 		44DCABD7BDDA6517C69C0E2B /* Pods_sc_TestInterview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sc_TestInterview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51F1FF2293881CE00DB92B2 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		B51F1FF4293881F500DB92B2 /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		B51F1FF62938823500DB92B2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B51F1FF8293882DC00DB92B2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B5BECBFD29386ECB004290CC /* sc_TestInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sc_TestInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BECC0029386ECB004290CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5BECC0229386ECB004290CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +56,6 @@
 				396E348C8CA082FCAA9887F4 /* Pods-sc_TestInterview.debug.xcconfig */,
 				0ED063756BCB86414A3F41C0 /* Pods-sc_TestInterview.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +95,10 @@
 				B5BECC0929386ECC004290CC /* Assets.xcassets */,
 				B5BECC0B29386ECC004290CC /* LaunchScreen.storyboard */,
 				B5BECC0E29386ECC004290CC /* Info.plist */,
+				B51F1FF2293881CE00DB92B2 /* Request.swift */,
+				B51F1FF4293881F500DB92B2 /* Articles.swift */,
+				B51F1FF62938823500DB92B2 /* TableViewCell.swift */,
+				B51F1FF8293882DC00DB92B2 /* SecondViewController.swift */,
 			);
 			path = sc_TestInterview;
 			sourceTree = "<group>";
@@ -208,6 +219,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5BECC0529386ECB004290CC /* ViewController.swift in Sources */,
+				B51F1FF5293881F500DB92B2 /* Articles.swift in Sources */,
+				B51F1FF3293881CE00DB92B2 /* Request.swift in Sources */,
+				B51F1FF72938823500DB92B2 /* TableViewCell.swift in Sources */,
+				B51F1FF9293882DC00DB92B2 /* SecondViewController.swift in Sources */,
 				B5BECC0129386ECB004290CC /* AppDelegate.swift in Sources */,
 				B5BECC0329386ECB004290CC /* SceneDelegate.swift in Sources */,
 			);
